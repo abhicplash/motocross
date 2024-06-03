@@ -1,0 +1,34 @@
+.topbar-container {
+  width: 100%;
+  height: 56px;
+  background-color: #1c1e32;
+  color: #8486a0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.left {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+  gap: 10px;
+}
+.topdetails {
+  font-weight: 100;
+}
+.right {
+  display: flex;
+  gap: 25px;
+  margin-right: 50px;
+}
+@media (max-width: 426px) {
+  .topbar-container {
+    display: none;
+  }
+}
