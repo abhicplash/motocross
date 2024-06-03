@@ -1,0 +1,100 @@
+.abouMain {
+  width: 100%;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: white;
+  gap: 30px;
+}
+.head1 {
+  color: #2b2e4a;
+  font-size: 56px;
+}
+.head2 {
+  color: #f77d0a;
+}
+.abouMain p {
+  /* width: 919px; */
+  padding: 0 20%;
+  color: #8486a0;
+  font-size: 16px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.aboutCard {
+  display: flex;
+
+  gap: 30px;
+}
+.card {
+  text-align: left;
+  width: 350px;
+  height: 150px;
+  /* border: 1px solid; */
+  background-color: #f4f5f8;
+  color: #2b2e4a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cardmiddle {
+  text-align: left;
+  width: 350px;
+  height: 150px;
+  /* border: 1px solid; */
+  background-color: #2b2e4a;
+  color: #f4f5f8;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card h1,
+.cardmiddle h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.cardicon {
+  height: 100px;
+  width: 100px;
+  background-color: #f77d0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconservice {
+  font-size: 32px;
+}
+.iconservicebike {
+  font-size: 52px;
+  color: #000;
+}
+@media (max-width: 426px) {
+  .aboutCard {
+    flex-direction: column;
+  }
+  .abouMain {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23% 0;
+  }
+  .head1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .abouMain p {
+    padding: 0 10%;
+  }
+  .card,
+  .cardmiddle {
+    width: 300px;
+  }
+}

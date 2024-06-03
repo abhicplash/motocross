@@ -4,12 +4,11 @@ import "./TopBar.css";
 import {
   FaPhoneAlt,
   FaEnvelope,
-  FaFacebookF ,
+  FaFacebookF,
   FaTwitter,
   FaLinkedin,
   FaInstagram,
-  FaYoutube,
-  FaBars
+  FaYoutube
 } from "react-icons/fa";
 
 function TopBar() {

@@ -1,0 +1,13 @@
+.bannerMain {
+  width: 100%;
+  height: 110vh;
+  /* background-color: red; */
+  background: url("https://motocrossindia.in/img/demo2.gif");
+  background-position: center;
+  background-size: cover;
+}
+@media(max-width:426px){
+    .bannerMain{
+        height: 28vh;
+    }
+}

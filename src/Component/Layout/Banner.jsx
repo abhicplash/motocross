@@ -1,8 +1,9 @@
 import React from 'react'
+import './Banner.css'
 
 function Banner() {
   return (
-    <div>Banner</div>
+    <div className="bannerMain"></div>
   )
 }
 
